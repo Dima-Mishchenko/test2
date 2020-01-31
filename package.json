@@ -1,0 +1,15 @@
+{
+  "name": "lesson_20",
+  "version": "1.0.0",
+  "description": "some test package file",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mishchenko Dmitry",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "webpack": "^4.41.5"
+  }
+}
