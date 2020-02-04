@@ -1,12 +1,12 @@
 import utils from './js/utils/utils.js';
 
-// function callAfter(ms, value) {
-//   return new Promise((resolve) => {
-//     setTimeout(() => {
-//       resolve(value);
-//     }, ms);
-//   });
-// }
+function callAfter(ms, value) {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(value);
+    }, ms);
+  });
+}
 
 // callAfter(1000, "res").then(res => {
 //   console.log('res', res);
